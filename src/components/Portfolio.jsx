@@ -26,18 +26,20 @@ const Portfolio = () => {
       <div className="section4">
         <div className="container gx-0 px-3 px-md-0">
           <div className="row text-center gx-0">
-            <div className="col-md-3"></div>
-            <div className="col-md-6">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <h1 className="sec4_h1">
-                <img src={icon1} alt="" /> PORTFOLIO
+                <img src={icon1} alt="" />
+                PORTFOLIO
                 <img src={icon2} alt="" />
               </h1>
               <p className="px-5 px-md-5 sec4_p">
-                I am a young Guy, My aim is to become a full-stack developer and
-                machine learner.
+                Explore my diverse portfolio showcasing web projects ranging
+                from responsive websites to dynamic web applications,
+                highlighting creativity, functionality, and user experience.
               </p>
             </div>
-            <div className="col-md-3"></div>
+            <div className="col-md-2"></div>
           </div>
           <div className="row gx-0 py-4">
             <div className="row gx-0">

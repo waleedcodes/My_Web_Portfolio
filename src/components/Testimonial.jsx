@@ -42,7 +42,7 @@ const Testimonial = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-up">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -62,7 +62,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-right">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -82,7 +82,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-right">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -102,7 +102,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-right">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -122,7 +122,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-right">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -142,7 +142,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-down">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -162,7 +162,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-right">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -182,7 +182,7 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="test_1">
+                <div className="test_1" data-aos="fade-right">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
                   <p className="py-3">
@@ -221,7 +221,7 @@ const Testimonial = () => {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <div className="test_1">
+                  <div className="test_1" data-aos="fade-up">
                     <img src={icon1} alt="" className="test_img" />
                     <div className="d-flex pb-1"></div>
                     <p className="py-3">
@@ -242,7 +242,7 @@ const Testimonial = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="test_1">
+                  <div className="test_1" data-aos="fade-up">
                     <img src={icon1} alt="" className="test_img" />
                     <div className="d-flex pb-1"></div>
                     <p className="py-3">
@@ -263,7 +263,7 @@ const Testimonial = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="test_1">
+                  <div className="test_1" data-aos="fade-up">
                     <img src={icon1} alt="" className="test_img" />
                     <div className="d-flex pb-1"></div>
                     <p className="py-3">
@@ -284,7 +284,7 @@ const Testimonial = () => {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="test_1">
+                  <div className="test_1" data-aos="fade-up">
                     <img src={icon1} alt="" className="test_img" />
                     <div className="d-flex pb-1"></div>
                     <p className="py-3">

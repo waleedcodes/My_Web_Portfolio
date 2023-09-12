@@ -12,79 +12,82 @@ const Services = () => {
       <div className="about">
         <div className="container gx-0">
           <div className="row text-center gx-0">
-            <div className="col-md-3"></div>
-            <div className="col-md-6">
+            <div className="col-md-2"></div>
+            <div className="col-md-8">
               <h1>
                 <img src={img1} alt="" />
                 SERVICE
                 <img src={img2} alt="" />
               </h1>
               <p className="px-5 px-md-5">
-                I am a young Guy, My aim is to become a full-stack developer and
-                machine learner.
+                As a dedicated Frontend Developer and proficient MERN stack
+                specialist, I offer a comprehensive range of services to enhance
+                your web presence
               </p>
             </div>
-            <div className="col-md-3"></div>
+            <div className="col-md-2"></div>
           </div>
           <div className="row gx-0 py-md-4 py-3 px-2 p-md-0">
             <div className="col-md-4">
               <div className="about-col1" data-aos="fade-down">
                 <img src={img3} alt="" />
-                <h2>HTML CSS JS</h2>
+                <h2>Frontend Development</h2>
                 <p>
-                  Enterprise-class websites need consistent colors, fonts, and
-                  design to match the organizations branding guidelines.
-                  Toptal’s front-end developers are experts at designing
-                  responsive websites, with CSS at the core of front end
-                  development alongside JavaScript and HTML.
+                  Crafting visually captivating and responsive user interfaces
+                  using HTML, CSS, and JavaScript to captivate your audience.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="about-col1" data-aos="fade-up">
                 <img src={img4} alt="" />
-                <h2>HTML CSS Bootstap</h2>
+                <h2>MERN Stack Development</h2>
                 <p>
-                  Enterprise-class websites need consistent colors, fonts, and
-                  design to match the organizations branding guidelines.
-                  Toptal’s front-end developers are experts at designing
-                  responsive websites, with CSS at the core of front end
-                  development alongside JavaScript and HTML.
+                  Building robust web applications with MongoDB, Express.js,
+                  React, and Node.js, ensuring seamless functionality and user
+                  experience.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="about-col1" data-aos="fade-left">
                 <img src={img5} alt="" />
-                <h2>Responsive Websites</h2>
+                <h2>Custom UI/UX Development</h2>
                 <p>
-                  Enterprise-class websites need consistent colors, fonts, and
-                  design to match the organizations branding guidelines.
-                  Toptal’s front-end developers are experts at designing
-                  responsive websites, with CSS at the core of front end
-                  development alongside JavaScript and HTML.
+                  Tailoring user interfaces and experiences to your brand and
+                  audience, making your website intuitive and enjoyable to
+                  navigate.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="about-col1" data-aos="fade-left">
                 <img src={img5} alt="" />
-                <h2>PSD to Bootstrap</h2>
+                <h2>Custom Web Apps</h2>
                 <p>
-                  Toptal front-end developers convert PSD, Sketch, Ai, and Adobe
-                  XD files into pixel-perfect standards that are compliant with
-                  HTML5/CSS3/Bootstrap3/4 templates.
+                  Designing and developing tailor-made web applications to
+                  address your specific needs and business goals.
                 </p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="about-col1" data-aos="fade-left">
                 <img src={img5} alt="" />
-                <h2>PSD To HTML</h2>
+                <h2>PSD To HTML CSS JavaScript</h2>
                 <p>
-                  Toptal front-end developers convert PSD, Sketch, Ai, and Adobe
-                  XD files into pixel-perfect standards that are compliant with
-                  HTML5/CSS3/Bootstrap3/4 templates.
+                  Effortlessly bring your PSD designs to life with our precise
+                  PSD to HTML/CSS/JavaScript conversion service. Achieve
+                  pixel-perfect, responsive web solutions.
+                </p>
+              </div>
+            </div>{" "}
+            <div className="col-md-4">
+              <div className="about-col1" data-aos="fade-left">
+                <img src={img5} alt="" />
+                <h2>Responsive Design</h2>
+                <p>
+                  Ensuring your digital assets look and function flawlessly on
+                  various devices, from desktops to smartphones.
                 </p>
               </div>
             </div>

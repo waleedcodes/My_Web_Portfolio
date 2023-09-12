@@ -10,12 +10,12 @@ const Feature = () => {
       <div className="section5">
         <div className="container">
           <div className="row gx-0">
-            <div className="col-md-6 py-3 py-md-0">
+            <div className="col-md-6 py-3 py-md-0" data-aos="fade-down">
               <div className="sec5_col1 py-5 py-md-0">
                 <img src={img1} alt="" className="img-fluid" />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up">
               <div className="sec5_col2">
                 <h4>WHY WORK WITH ME</h4>
                 <h1>

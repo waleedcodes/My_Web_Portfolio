@@ -21,9 +21,12 @@ const Skills = () => {
                 <h1>I am great in what I</h1>
                 <h1>do and I am loving it</h1>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum.
+                  My skill set includes proficiency in HTML, CSS, JavaScript,
+                  and popular frameworks like React. I have experience in
+                  creating responsive, interactive websites and web
+                  applications. Additionally, I am skilled in version control
+                  systems, troubleshooting, and staying updated with the latest
+                  web development trends
                 </p>
               </div>
             </div>

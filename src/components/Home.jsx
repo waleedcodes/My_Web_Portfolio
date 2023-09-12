@@ -1,6 +1,7 @@
 import React from "react";
 import img2 from "../assets/men.jpg";
 import TextTransition, { presets } from "react-text-transition";
+import { NavLink } from "react-router-dom";
 
 const TEXTS = [
   "HTML",
@@ -51,10 +52,10 @@ const Home = () => {
                 </div>
                 <div className="home_btns">
                   <button type="button" className="home_btn1">
-                    HIRE ME
+                    <NavLink to="/about">HIRE ME</NavLink>
                   </button>
                   <button type="button" className="home_btn2">
-                    ABOUT ME
+                    <NavLink to="/about">ABOUT ME</NavLink>
                   </button>
                 </div>
               </div>
@@ -64,6 +65,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* ********* */}
+      {/* ********* */}
     </>
   );
 };

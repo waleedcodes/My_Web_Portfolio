@@ -16,6 +16,7 @@
     "react-circular-progressbar": "^2.1.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
+    "react-show-more-text": "^1.6.2",
     "react-simple-image-slider": "^2.4.1",
     "react-slideshow-image": "^4.2.1",
     "react-text-transition": "^3.1.0",

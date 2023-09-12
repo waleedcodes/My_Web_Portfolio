@@ -36,18 +36,19 @@ const About = () => {
       <div className="about">
         <div className="container gx-0">
           <div className="row text-center gx-0">
-            <div className="col-md-3"></div>
-            <div className="col-md-6">
+            <div className="col-md-2"></div>
+            <div className="col-md-8 px-2 px-md-0">
               <h1>
-                <img src={img1} alt="" /> WELCOME TO MY WORLD
+                <img src={img1} alt="" />
+                WELCOME TO MY WORLD
                 <img src={img2} alt="" />
               </h1>
-              <p className="px-5 px-md-5">
+              <p className="px-1 px-md-5">
                 I am a young Guy, My aim is to become a full-stack developer and
                 machine learner.
               </p>
             </div>
-            <div className="col-md-3"></div>
+            <div className="col-md-2"></div>
           </div>
           <div className="row gx-0 py-md-4 py-3 px-2 p-md-0">
             <div className="col-md-4">
@@ -100,18 +101,18 @@ const About = () => {
                 </h1>
                 <h1>Work From Anywhere</h1>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est laborum.
+                  Hi there! I am Waleed Ishfaq, a Web Developer passionate about
+                  crafting seamless online experiences. With expertise in HTML,
+                  CSS, JavaScript, and various frameworks, I bring ideas to life
+                  on the web. Let's collaborate to create user-friendly,
+                  visually stunning websites that leave a lasting impact.
                 </p>
                 <p>
-                  Tabore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                  commodo consequat.
+                  Feel free to adapt and use this as needed for your portfolio
+                  website.
                 </p>
                 <div className="row gx-0">
-                  <div className="col-md-6">
+                  <div className="col-md-7">
                     <h5>NAME :</h5>
                     <p>Waleed Ishfaq</p>
                     <h5>EMAIL :</h5>
@@ -119,7 +120,7 @@ const About = () => {
                     <h5>PHONE NO :</h5>
                     <p>123456789</p>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-5">
                     <h5>AGE :</h5>
                     <p>18</p>
                     <h5>EDUCATION :</h5>
