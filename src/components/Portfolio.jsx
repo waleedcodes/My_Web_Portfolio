@@ -104,7 +104,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="row gx-0">
+            <div className="row gx-0 ">
               <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
                 <div className="s4_1">
                   <img src={img1} alt="" className="img-fluid" />
