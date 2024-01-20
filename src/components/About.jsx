@@ -72,7 +72,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="about-col1" data-aos="fade-left">
+              <div className="about-col1" data-aos="fade-down">
                 <img src={img5} alt="" />
                 <h2>Hard Work</h2>
                 <p>

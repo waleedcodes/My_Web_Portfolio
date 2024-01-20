@@ -33,7 +33,7 @@ const Portfolio = () => {
                 PORTFOLIO
                 <img src={icon2} alt="" />
               </h1>
-              <p className="px-5 px-md-5 sec4_p">
+              <p className="px-2 px-md-5 sec4_p">
                 Explore my diverse portfolio showcasing web projects ranging
                 from responsive websites to dynamic web applications,
                 highlighting creativity, functionality, and user experience.
@@ -42,6 +42,68 @@ const Portfolio = () => {
             <div className="col-md-2"></div>
           </div>
           <div className="row gx-0 py-4">
+            <div className="row gx-0">
+              <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
+                <div className="s4_1">
+                  <img src={img1} alt="" className="img-fluid" />
+                  <div className="overlay">
+                    <div className="text">
+                      <h4>Furniture Template</h4>
+                      <p>Completed With HTML | CSS and Bootstrap 5 </p>
+                      <a
+                        href="https://waleedcodes.github.io/B-FurnitureTemp/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button className="btn2 py-2 mt-3 fs-6">
+                          Read More
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
+                <div className="s4_1">
+                  <img src={img2} alt="" className="img-fluid" />
+                  <div className="overlay">
+                    <div className="text">
+                      <h4>Maples Resort Template</h4>
+                      <p>Completed With HTML | CSS and Bootstrap 5 </p>
+                      <a
+                        href="https://waleedcodes.github.io/B-TravelTemp/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button className="btn2 py-2 mt-3 fs-6">
+                          Read More
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
+                <div className="s4_1">
+                  <img src={img3} alt="" className="img-fluid" />
+                  <div className="overlay">
+                    <div className="text">
+                      <h4>UTOPIA Template</h4>
+                      <p>Completed With HTML | CSS and Bootstrap 5 </p>
+                      <a
+                        href="https://waleedcodes.github.io/B-UtopiaTemp/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <button className="btn2 py-2 mt-3 fs-6">
+                          Read More
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="row gx-0">
               <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
                 <div className="s4_1">

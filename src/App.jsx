@@ -10,11 +10,12 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
+// import Testimonial from "./components/Testimonial";
 import Feature from "./components/Feature";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 
 function App() {
   useEffect(() => {
@@ -30,8 +31,8 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/feature" element={<Feature />} />
-          <Route path="/testimonial" element={<Testimonial />} />
+          {/* <Route path="/feature" element={<Feature />} /> */}
+          {/* <Route path="/testimonial" element={<Testimonial />} /> */}
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

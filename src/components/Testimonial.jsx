@@ -21,7 +21,7 @@ const Testimonial = () => {
               TESTIMONIALS
               <img src={img3} alt="" />
             </h1>
-            <p className="px-5 px-md-5">
+            <p className="px-2 px-md-5">
               Duis aute irure dolor in reprehen pteur sint occaecat cupidatat
               non proident, sunt in culim id est.
             </p>

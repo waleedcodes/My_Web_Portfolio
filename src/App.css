@@ -1,16 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root {
   --dark-color: #222222;
   --primary-color: #7371f9;
 }
 * {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Raleway", sans-serif;
+
   padding: 0;
 }
-/* body {
-} */
+body {
+  margin: 0 auto !important;
+  overflow-x: hidden;
+  max-width: 2560px;
+}
+
 p {
   font-size: 1.15rem !important;
   color: #b0aac0;
@@ -40,7 +48,7 @@ a {
 }
 .nav_ul a {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
@@ -57,12 +65,12 @@ a {
 /* ************************************* */
 .home {
   background-image: url(./assets/homemain.png);
-  height: 850px;
+  height: 750px;
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 7rem 0;
-  background-color: rgb(0, 0, 0, 0.35);
+  padding: 5rem 0;
+  background-color: rgb(0, 0, 0, 0.4);
   background-blend-mode: color;
 }
 .home_col {
@@ -72,25 +80,28 @@ a {
 .home_col img {
   border-radius: 100%;
   width: 32%;
+  box-shadow: 0px 0px 164px 7px rgba(178, 168, 231, 0.54);
+  /* transform: skew(1); */
 }
 .home_col h1 {
-  font-size: 4.5rem;
+  font-size: 2.6rem;
   letter-spacing: 1px;
   font-weight: 700;
   color: #fff;
 }
 .home_col h2 {
-  padding-top: 0.9rem;
-  font-size: 1.5rem;
+  padding: 0.8rem 0;
+  font-size: 2rem;
   letter-spacing: 1px;
-  font-weight: 400;
-  color: #c5c5c5;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 .home_col h3 {
   padding-top: 2rem;
   letter-spacing: 1px;
   font-weight: 400;
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   color: #fff;
 }
 .home_col h4 {
@@ -105,6 +116,58 @@ a {
 .text-transition {
   display: block !important;
 }
+/* ************************** */
+.navbar-brand h2 {
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 700;
+  position: absolute;
+  transform: translate(0, -50%);
+}
+
+.navbar-brand h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--primary-color);
+}
+
+.navbar-brand h2:nth-child(2) {
+  color: var(--primary-color);
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+/* ************************** */
+
+/* ************************** */
 .home_col span {
   color: var(--primary-color);
 }
@@ -118,36 +181,32 @@ a {
   color: #fff !important;
 }
 .home_btn1 {
-  padding: 1rem 2.3rem;
+  padding: 0.75rem 2rem;
   border: none;
   background-color: var(--primary-color);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: 0.4px;
   border-radius: 5px;
   margin: 0 0.5rem;
-}
-.home_btn1:hover {
-  background-color: #434299;
-  transition: 0.4s linear;
-  transform: scale(1.06);
-  border: 2px solid var(--primary-color);
 }
 .home_btn2 {
-  padding: 0.95rem 2.3rem;
+  padding: 0.75rem 2rem;
   border: none;
   background-color: transparent;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: 0.4px;
   border-radius: 5px;
   border: 2px solid var(--primary-color);
   margin: 0 0.5rem;
 }
-.home_btn2:hover {
-  background-color: var(--primary-color);
+.home_btn2:hover,
+.home_btn1:hover {
+  background-color: var(--dark-color);
   transition: 0.4s linear;
-  transform: scale(1.06);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 20px 2px rgba(178, 168, 231, 0.54);
 }
 /* ************************************* */
 .about {
@@ -710,7 +769,7 @@ a {
   padding: 7rem 4.5rem 3rem 4.5rem;
 }
 .footer h2 {
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
 }
 .footer_1 {
   width: 40%;
@@ -817,6 +876,9 @@ a {
   }
   .nav_ul li {
     padding: 0.5rem 1rem;
+  }
+  .navbar-collapse {
+    z-index: 1080;
   }
   /* ************************************* */
   .home_col {

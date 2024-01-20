@@ -50,7 +50,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="about-col1" data-aos="fade-left">
+              <div className="about-col1" data-aos="fade-down">
                 <img src={img5} alt="" />
                 <h2>Custom UI/UX Development</h2>
                 <p>
@@ -61,7 +61,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="about-col1" data-aos="fade-left">
+              <div className="about-col1" data-aos="fade-up">
                 <img src={img5} alt="" />
                 <h2>Custom Web Apps</h2>
                 <p>
@@ -71,7 +71,7 @@ const Services = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="about-col1" data-aos="fade-left">
+              <div className="about-col1" data-aos="fade-down">
                 <img src={img5} alt="" />
                 <h2>PSD To HTML CSS JavaScript</h2>
                 <p>
@@ -82,7 +82,7 @@ const Services = () => {
               </div>
             </div>{" "}
             <div className="col-md-4">
-              <div className="about-col1" data-aos="fade-left">
+              <div className="about-col1" data-aos="fade-up">
                 <img src={img5} alt="" />
                 <h2>Responsive Design</h2>
                 <p>

@@ -6,12 +6,11 @@ const Footer = () => {
       <div className="footer">
         <div className="footer_main">
           <div className="footer_1">
-            <a className="navbar-brand" href="#">
-              <h2>
-                waleed <span>codes</span>
-              </h2>
+            <a className="navbar-brand my-3" href="#">
+              <h2>Waleed</h2>
+              <h2>Waleed</h2>
             </a>
-            <p>
+            <p className="mt-4">
               Let's build something incredible together. Reach out via email or
               connect on LinkedIn and GitHub. Explore my portfolio for more.
             </p>
@@ -54,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer_2">
-            <h2>Quick Links</h2>
+            <h4 className="pb-2">Quick Links</h4>
             <ul>
               <li>
                 <a href="">Home</a>
@@ -71,7 +70,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer_3">
-            <h2>Leave A Message</h2>
+            <h4 className="pb-2">Leave A Message</h4>
             <div className="footer_3_input mt-4">
               <input type="email" placeholder="Email Address" required />
               <button className="btn3" type="submit">

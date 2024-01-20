@@ -12,9 +12,11 @@ const Navbar = () => {
             </h2>
           </a> */}
           <NavLink className="navbar-brand" to="/">
-            <h2>
+            {/* <h2>
               waleed <span>codes</span>
-            </h2>
+            </h2> */}
+            <h2>Waleed</h2>
+            <h2>Waleed</h2>
           </NavLink>
           <button
             className="navbar-toggler"
@@ -42,12 +44,12 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink to="/portfolio"> Portfoilo</NavLink>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <NavLink to="/feature"> Feature</NavLink>
-              </li>
-              <li className="nav-item">
+              </li> */}
+              {/* <li className="nav-item">
                 <NavLink to="/testimonial"> Testimonial</NavLink>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <NavLink to="/blog"> Blog</NavLink>
               </li>
