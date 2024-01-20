@@ -11,6 +11,9 @@ import img8 from "../assets/portfolio/8.png";
 import img9 from "../assets/portfolio/9.png";
 import img10 from "../assets/portfolio/10.png";
 import img11 from "../assets/portfolio/11.png";
+import img12 from "../assets/portfolio/12.jpg";
+import img13 from "../assets/portfolio/13.jpg";
+import img14 from "../assets/portfolio/14.png";
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
 
@@ -45,17 +48,17 @@ const Portfolio = () => {
             <div className="row gx-0">
               <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
                 <div className="s4_1">
-                  <img src={img1} alt="" className="img-fluid" />
+                  <img src={img12} alt="" className="img-fluid" />
                   <div className="overlay">
                     <div className="text">
-                      <h4>Furniture Template</h4>
-                      <p>Completed With HTML | CSS and Bootstrap 5 </p>
+                      <h4>GYM & Fitness</h4>
+                      <p>GYM & Fitness Website With React JS</p>
                       <a
-                        href="https://waleedcodes.github.io/B-FurnitureTemp/"
+                        href="https://react-gym-webiste.vercel.app//"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <button className="btn2 py-2 mt-3 fs-6">
+                        <button className="btn2 py-2 mt-1 fs-6">
                           Read More
                         </button>
                       </a>
@@ -65,17 +68,17 @@ const Portfolio = () => {
               </div>
               <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
                 <div className="s4_1">
-                  <img src={img2} alt="" className="img-fluid" />
+                  <img src={img13} alt="" className="img-fluid" />
                   <div className="overlay">
                     <div className="text">
-                      <h4>Maples Resort Template</h4>
-                      <p>Completed With HTML | CSS and Bootstrap 5 </p>
+                      <h4>Food Deilvery</h4>
+                      <p> Resturant Food Deilvery Website With React JS</p>
                       <a
-                        href="https://waleedcodes.github.io/B-TravelTemp/"
+                        href="https://react-food-delivery-website-blue.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        <button className="btn2 py-2 mt-3 fs-6">
+                        <button className="btn2 py-2 mt-1 fs-6">
                           Read More
                         </button>
                       </a>
@@ -85,11 +88,11 @@ const Portfolio = () => {
               </div>
               <div className="col-md-6 col-sm-6 col-12 col-lg-4 my-4">
                 <div className="s4_1">
-                  <img src={img3} alt="" className="img-fluid" />
+                  <img src={img14} alt="" className="img-fluid" />
                   <div className="overlay">
                     <div className="text">
-                      <h4>UTOPIA Template</h4>
-                      <p>Completed With HTML | CSS and Bootstrap 5 </p>
+                      <h4>Pet Food Delivery</h4>
+                      <p>Pet Food Delivery Website With React JS</p>
                       <a
                         href="https://waleedcodes.github.io/B-UtopiaTemp/"
                         target="_blank"

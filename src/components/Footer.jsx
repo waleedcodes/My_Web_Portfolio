@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="footer">
-        <div className="footer_main">
+      <div className="footer container-fluid">
+        <div className="footer_main container">
           <div className="footer_1">
             <a className="navbar-brand my-3" href="#">
               <h2>Waleed</h2>
@@ -71,18 +71,26 @@ const Footer = () => {
           </div>
           <div className="footer_3">
             <h4 className="pb-2">Leave A Message</h4>
-            <div className="footer_3_input mt-4">
-              <input type="email" placeholder="Email Address" required />
-              <button className="btn3" type="submit">
-                Send
-              </button>
-            </div>
+            <form action="/contact">
+              <div className="footer_3_input mt-4">
+                <input type="email" placeholder="Email Address" required />
+                <button className="btn3" type="submit">
+                  Send
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
       {/* <!-- ******************************************** --> */}
       <div className="footer_end">
-        <p>© 2023 waleedcodes.com | All rights reserved.</p>
+        <p>
+          © 2024{" "}
+          <a href="http://waleedcodes.com/" target="_blank" rel="noreferrer">
+            waleedcodes.com
+          </a>{" "}
+          | All rights reserved.
+        </p>
       </div>
     </>
   );

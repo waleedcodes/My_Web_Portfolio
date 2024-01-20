@@ -79,8 +79,8 @@ const Contact = () => {
         </div>
       </div> */}
       {/* ****************** */}
-      <div className="contact">
-        <div className="container-fluid contact_main gx-0">
+      <div className="contact container-fluid">
+        <div className="container contact_main gx-0">
           <div className="row text-center gx-0 pb-5">
             <div className="col-md-3"></div>
             <div className="col-md-6">
@@ -111,7 +111,7 @@ const Contact = () => {
                   <div className="contact_fm_1" data-aos="fade-left">
                     <i className="fa-solid fa-envelope"></i>
                     <h4>Email</h4>
-                    <h6>waleedishfaq1515@gmail.com</h6>
+                    <h6>hi@waleedcodes.com</h6>
                   </div>
                 </div>
               </div>
@@ -136,7 +136,8 @@ const Contact = () => {
 
             <div className="col-lg-5" data-aos="fade-left">
               <div className="contact_sec2">
-                <form action="https://formspree.io/f/xjvqvwyo" method="POST">
+                <form action="https://formspree.io/f/xayrnrdk" method="POST">
+                  {/* <form action="https://formspree.io/f/xjvqvwyo" method="POST"> */}
                   <div className="mb-3">
                     <label
                       htmlFor="exampleFormControlInput1"

@@ -4,7 +4,8 @@ import img2 from "../assets/icon2.png";
 import img3 from "../assets/i1.png";
 import img4 from "../assets/i2.png";
 import img5 from "../assets/i3.png";
-import img6 from "../assets/about-main.png";
+// import img6 from "../assets/about-main.png";
+import img6 from "../assets/men2.png";
 
 const About = () => {
   // const card = document.querySelector(".sec1_col1");
@@ -85,7 +86,7 @@ const About = () => {
         </div>
       </div>
       {/* ************************************* */}
-      <div className="section1">
+      <div className="section1 container-fluid">
         <div className="container gx-0 px-md-0 px-3">
           <div className="row gx-0 align-items-center">
             <div className="col-md-6" data-aos="fade-down">
@@ -116,7 +117,7 @@ const About = () => {
                     <h5>NAME :</h5>
                     <p>Waleed Ishfaq</p>
                     <h5>EMAIL :</h5>
-                    <p>waleedishfaq1515@gmail.com</p>
+                    <p>hi@waleedcodes.com</p>
                     <h5>PHONE NO :</h5>
                     <p>123456789</p>
                   </div>

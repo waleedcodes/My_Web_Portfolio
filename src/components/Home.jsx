@@ -57,12 +57,10 @@ const Home = () => {
                   />
                 </h1>
                 {/* <p>A passionate Web Developer who works on</p> */}
-                <div className="home_text">
-              
-                </div>
+                <div className="home_text"></div>
                 <div className="home_btns">
                   <button type="button" className="home_btn1">
-                    <NavLink to="/about">HIRE ME</NavLink>
+                    <NavLink to="/contact">HIRE ME</NavLink>
                   </button>
                   <button type="button" className="home_btn2">
                     <NavLink to="/about">ABOUT ME</NavLink>
