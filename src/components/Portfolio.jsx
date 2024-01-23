@@ -94,7 +94,7 @@ const Portfolio = () => {
                       <h4>Pet Food Delivery</h4>
                       <p>Pet Food Delivery Website With React JS</p>
                       <a
-                        href="https://waleedcodes.github.io/B-UtopiaTemp/"
+                        href="https://best-pet-food-website.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
