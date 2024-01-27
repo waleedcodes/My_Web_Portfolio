@@ -54,7 +54,7 @@ const Portfolio = () => {
                       <h4>GYM & Fitness</h4>
                       <p>GYM & Fitness Website With React JS</p>
                       <a
-                        href="https://react-gym-webiste.vercel.app//"
+                        href="https://react-gym-fitness-website.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                       >
