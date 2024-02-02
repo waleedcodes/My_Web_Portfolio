@@ -190,7 +190,6 @@ a {
 }
 .home_btn2 {
   padding: 0.75rem 2rem;
-  border: none;
   background-color: transparent;
   font-size: 1.15rem;
   font-weight: 600;
@@ -769,7 +768,7 @@ a {
 }
 .footer_main {
   display: flex;
-  padding: 7rem 4.5rem 3rem 4.5rem;
+  padding: 7rem 4.5rem 3rem;
 }
 .footer h2 {
   /* padding-bottom: 0.5rem; */
