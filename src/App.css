@@ -353,6 +353,66 @@ a {
 .skill_col {
   padding: 0.7rem;
 }
+/* *********************************************** */
+.skills {
+  padding: 0 20px;
+}
+
+.skill-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #eeedf0;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar {
+  height: 14px;
+  background: #282828;
+  border-radius: 3px;
+}
+
+.skill-percentage {
+  height: 14px;
+  background: #ff96ad;
+  border-radius: 3px;
+  position: relative;
+  animation: fillBars 2.5s 1;
+}
+
+.skill-percentage::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background: #fff5fd;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: transition(50%);
+}
+
+.skill-percentage::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #005a8d;
+  top: -20px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+
+@keyframes fillBars {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+/* *********************************************** */
 /* .skill_col2 h3 {
   font-size: 1.3rem;
   color: #b0aac0 !important;
@@ -361,8 +421,7 @@ a {
   width: 90% !important;
 } */
 .skill_col2 {
-  padding: 0 5rem;
-  text-align: center;
+  padding: 0 2rem;
 }
 .skill_col2 h3 {
   color: #fff;

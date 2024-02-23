@@ -32,36 +32,34 @@ const Skills = () => {
             </div>
             <div className="col-md-6">
               <div className="skill_col2">
-                <div className="skills">
-                  <div className="skill">
-                    <div className="skill-name">HTML</div>
-                    <div className="skill-bar">
-                      <div
-                        className="skill-percentage"
-                        per="90%"
-                        style={{ maxWidth: "90%" }}
-                      ></div>
-                    </div>
+                <div className="skill">
+                  <div className="skill-name">HTML</div>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-percentage"
+                      per="90%"
+                      style={{ maxWidth: "90%" }}
+                    ></div>
                   </div>
-                  <div className="skill">
-                    <div className="skill-name">CSS</div>
-                    <div className="skill-bar">
-                      <div
-                        className="skill-percentage"
-                        per="80%"
-                        style={{ maxWidth: "80%" }}
-                      ></div>
-                    </div>
+                </div>
+                <div className="skill">
+                  <div className="skill-name">CSS</div>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-percentage"
+                      per="80%"
+                      style={{ maxWidth: "80%" }}
+                    ></div>
                   </div>
-                  <div className="skill">
-                    <div className="skill-name">Javascript</div>
-                    <div className="skill-bar">
-                      <div
-                        className="skill-percentage"
-                        per="60%"
-                        style={{ maxWidth: "65%" }}
-                      ></div>
-                    </div>
+                </div>
+                <div className="skill">
+                  <div className="skill-name">Javascript</div>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-percentage"
+                      per="60%"
+                      style={{ maxWidth: "65%" }}
+                    ></div>
                   </div>
                 </div>
                 {/* <div className="row ">
