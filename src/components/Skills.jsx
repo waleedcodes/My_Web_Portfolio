@@ -39,7 +39,7 @@ const Skills = () => {
                       <div
                         className="skill-percentage"
                         per="90%"
-                        style="max-width:90%"
+                        style={{ maxWidth: "90%" }}
                       ></div>
                     </div>
                   </div>
@@ -49,7 +49,7 @@ const Skills = () => {
                       <div
                         className="skill-percentage"
                         per="80%"
-                        style="max-width:80%"
+                        style={{ maxWidth: "80%" }}
                       ></div>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ const Skills = () => {
                       <div
                         className="skill-percentage"
                         per="60%"
-                        style="max-width:65%"
+                        style={{ maxWidth: "65%" }}
                       ></div>
                     </div>
                   </div>
