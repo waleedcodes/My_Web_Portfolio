@@ -4,6 +4,8 @@ import ReactTyped from "react-typed";
 import img2 from "../assets/men2.png";
 // import TextTransition, { presets } from "react-text-transition";
 import { NavLink } from "react-router-dom";
+import About from "./About";
+import Skills from "./Skills";
 
 // const TEXTS = [
 //   "HTML",
@@ -74,6 +76,9 @@ const Home = () => {
         </div>
       </div>
       {/* ********* */}
+      <About />
+      {/* ********* */}
+      <Skills />
       {/* ********* */}
     </>
   );
