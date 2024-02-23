@@ -1,15 +1,15 @@
 import React from "react";
-import { CircularProgressbar } from "react-circular-progressbar";
+// import { CircularProgressbar } from "react-circular-progressbar";
 
-import "react-circular-progressbar/dist/styles.css";
+// import "react-circular-progressbar/dist/styles.css";
 // import ChangingProgressProvider from "./ChangingProgressProvider";
 
 const Skills = () => {
-  const ab = 100;
-  const cd = 95;
-  const ef = 80;
-  const gh = 85;
-  const ij = 70;
+  // const ab = 100;
+  // const cd = 95;
+  // const ef = 80;
+  // const gh = 85;
+  // const ij = 70;
   return (
     <>
       <div className="skills">
@@ -35,11 +35,10 @@ const Skills = () => {
                 <div className="row ">
                   <div className="col-md-4 col-6">
                     <div className="skill_col">
-                      <CircularProgressbar value={ab} text={`${ab}%`} />
                       <h3>HTML</h3>
                     </div>
                   </div>
-                  <div className="col-md-4 col-6">
+                  {/* <div className="col-md-4 col-6">
                     <div className="skill_col">
                       <CircularProgressbar value={cd} text={`${cd}%`} />
                       <h3>CSS</h3>
@@ -68,7 +67,7 @@ const Skills = () => {
                       <CircularProgressbar value={ij} text={`${ij}%`} />
                       <h3>MongoDB</h3>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
