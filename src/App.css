@@ -353,13 +353,13 @@ a {
 .skill_col {
   padding: 0.7rem;
 }
-.skill_col2 h3 {
+/* .skill_col2 h3 {
   font-size: 1.3rem;
   color: #b0aac0 !important;
-}
-.CircularProgressbar {
+} */
+/* .CircularProgressbar {
   width: 90% !important;
-}
+} */
 .skill_col2 {
   padding: 0 5rem;
   text-align: center;
