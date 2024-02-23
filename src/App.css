@@ -36,9 +36,8 @@ a {
   color: var(--primary-color);
 }
 .navbar_main {
-  background-image: url(./assets/hero-bg-dark.jpg);
-  height: 100px;
-  background-color: rgb(0, 0, 0, 0.4);
+  height: 80px;
+  background-color: #222222;
   background-blend-mode: color;
 }
 .nav_ul li {
