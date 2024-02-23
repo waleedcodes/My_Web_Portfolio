@@ -32,13 +32,46 @@ const Skills = () => {
             </div>
             <div className="col-md-6">
               <div className="skill_col2">
-                <div className="row ">
+                <div className="skills">
+                  <div className="skill">
+                    <div className="skill-name">HTML</div>
+                    <div className="skill-bar">
+                      <div
+                        className="skill-percentage"
+                        per="90%"
+                        style="max-width:90%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div className="skill">
+                    <div className="skill-name">CSS</div>
+                    <div className="skill-bar">
+                      <div
+                        className="skill-percentage"
+                        per="80%"
+                        style="max-width:80%"
+                      ></div>
+                    </div>
+                  </div>
+                  <div className="skill">
+                    <div className="skill-name">Javascript</div>
+                    <div className="skill-bar">
+                      <div
+                        className="skill-percentage"
+                        per="60%"
+                        style="max-width:65%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                {/* <div className="row ">
                   <div className="col-md-4 col-6">
                     <div className="skill_col">
+                      <CircularProgressbar value={ab} text={`${ab}%`} />
                       <h3>HTML</h3>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-6">
+                  <div className="col-md-4 col-6">
                     <div className="skill_col">
                       <CircularProgressbar value={cd} text={`${cd}%`} />
                       <h3>CSS</h3>
@@ -67,8 +100,8 @@ const Skills = () => {
                       <CircularProgressbar value={ij} text={`${ij}%`} />
                       <h3>MongoDB</h3>
                     </div>
-                  </div> */}
-                </div>
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
