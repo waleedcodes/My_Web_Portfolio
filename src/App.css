@@ -328,7 +328,7 @@ a {
   background-image: url(./assets/skill-bg.jpg);
   background-position: center;
   background-size: cover;
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 .skill_col1 h1 {
   color: #fff;
@@ -354,9 +354,6 @@ a {
   padding: 0.7rem;
 }
 /* *********************************************** */
-.skills {
-  padding: 0 20px;
-}
 
 .skill-name {
   font-size: 18px;
@@ -373,9 +370,9 @@ a {
 }
 
 .skill-percentage {
-  height: 14px;
-  background: #ff96ad;
-  border-radius: 3px;
+  height: 10px;
+  background:var(--primary-color);
+  border-radius: 20px;
   position: relative;
   animation: fillBars 2.5s 1;
 }
@@ -387,6 +384,7 @@ a {
   background: #fff5fd;
   border-radius: 4px;
   font-size: 12px;
+  font-weight: 700;
   top: -35px;
   right: 0;
   transform: transition(50%);
