@@ -15,9 +15,9 @@ const Skills = () => {
       <div className="skills">
         <div className="container gx-0 px-3 px-md-0">
           <div className="row gx-0 align-items-center">
+            <h1>MY SKILLS</h1>
             <div className="col-md-6">
               <div className="skill_col1">
-                <h5>MY SKILLS</h5>
                 <div className="skill">
                   <div className="skill-name">HTML</div>
                   <div className="skill-bar">
