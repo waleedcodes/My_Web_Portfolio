@@ -106,12 +106,12 @@ const Skills = () => {
                   </div>
                 </div>
                 <div className="skill">
-                  <div className="skill-name">Javascript</div>
+                  <div className="skill-name">MongoDB</div>
                   <div className="skill-bar">
                     <div
                       className="skill-percentage"
-                      per="100%"
-                      style={{ maxWidth: "100%" }}
+                      per="80%"
+                      style={{ maxWidth: "80%" }}
                     ></div>
                   </div>
                 </div>
