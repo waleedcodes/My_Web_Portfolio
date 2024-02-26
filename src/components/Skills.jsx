@@ -126,12 +126,12 @@ const Skills = () => {
                   </div>
                 </div>
                 <div className="skill">
-                  <div className="skill-name">Javascript</div>
+                  <div className="skill-name">Strapi</div>
                   <div className="skill-bar">
                     <div
                       className="skill-percentage"
-                      per="60%"
-                      style={{ maxWidth: "65%" }}
+                      per="80%"
+                      style={{ maxWidth: "80%" }}
                     ></div>
                   </div>
                 </div>
