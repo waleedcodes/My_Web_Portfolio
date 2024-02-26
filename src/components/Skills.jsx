@@ -72,12 +72,12 @@ const Skills = () => {
                   </div>
                 </div>
                 <div className="skill">
-                  <div className="skill-name">Javascript</div>
+                  <div className="skill-name">Tailwind CSS</div>
                   <div className="skill-bar">
                     <div
                       className="skill-percentage"
-                      per="60%"
-                      style={{ maxWidth: "65%" }}
+                      per="80%"
+                      style={{ maxWidth: "80%" }}
                     ></div>
                   </div>
                 </div>
@@ -86,22 +86,22 @@ const Skills = () => {
             <div className="col-md-6">
               <div className="skill_col2">
                 <div className="skill">
-                  <div className="skill-name">HTML</div>
+                  <div className="skill-name">GitHub</div>
                   <div className="skill-bar">
                     <div
                       className="skill-percentage"
-                      per="100%"
-                      style={{ maxWidth: "100%" }}
+                      per="90%"
+                      style={{ maxWidth: "90%" }}
                     ></div>
                   </div>
                 </div>
                 <div className="skill">
-                  <div className="skill-name">CSS</div>
+                  <div className="skill-name">Git</div>
                   <div className="skill-bar">
                     <div
                       className="skill-percentage"
-                      per="100%"
-                      style={{ maxWidth: "100%" }}
+                      per="90%"
+                      style={{ maxWidth: "90%" }}
                     ></div>
                   </div>
                 </div>
