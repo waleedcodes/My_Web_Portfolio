@@ -39,6 +39,19 @@ const Skills = () => {
                   </div>
                 </div>
                 <div className="skill">
+                  <div className="skill-name">
+                    {" "}
+                    <div className="skill-name">Bootstrap 3/4/5</div>
+                  </div>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-percentage"
+                      per="100%"
+                      style={{ maxWidth: "100%" }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="skill">
                   <div className="skill-name">Javascript</div>
                   <div className="skill-bar">
                     <div
@@ -55,16 +68,6 @@ const Skills = () => {
                       className="skill-percentage"
                       per="95%"
                       style={{ maxWidth: "95%" }}
-                    ></div>
-                  </div>
-                </div>
-                <div className="skill">
-                  <div className="skill-name">Javascript</div>
-                  <div className="skill-bar">
-                    <div
-                      className="skill-percentage"
-                      per="60%"
-                      style={{ maxWidth: "65%" }}
                     ></div>
                   </div>
                 </div>
