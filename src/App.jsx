@@ -15,7 +15,7 @@ import Feature from "./components/Feature";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import { HeroParallax } from "./components/ui/HeroParallax";
 
 function App() {
   useEffect(() => {
@@ -26,7 +26,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HeroParallax />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/about" element={<About />} />
           {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
