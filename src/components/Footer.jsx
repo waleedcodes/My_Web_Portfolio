@@ -12,18 +12,33 @@ const Footer = () => {
               Let's build something incredible together. Reach out via email or
               connect on LinkedIn and GitHub. Explore my portfolio for more.
             </p>
-            <ul>
-              <li>
-                <a href="">Home</a>
+            <ul className="navbar-nav ms-auto nav_ul">
+              <li className="nav-item">
+                <NavLink to="/about">About</NavLink>
               </li>
-              <li>
-                <a href="">About Us</a>
+              {/* <li className="nav-item">
+                <NavLink to="/skills"> Skills</NavLink>
+              </li> */}
+              <li className="nav-item">
+                <NavLink to="/services"> Services</NavLink>
+              </li>{" "}
+              <li className="nav-item">
+                <NavLink to="/courses"> Courses</NavLink>
               </li>
-              <li>
-                <a href="">Features</a>
+              <li className="nav-item">
+                <NavLink to="/portfolio"> Portfoilo</NavLink>
               </li>
-              <li>
-                <a href="">Testimonals</a>
+              {/* <li className="nav-item">
+                <NavLink to="/feature"> Feature</NavLink>
+              </li> */}
+              {/* <li className="nav-item">
+                <NavLink to="/testimonial"> Testimonial</NavLink>
+              </li> */}
+              <li className="nav-item">
+                <NavLink to="/contact"> Contact</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to="/blog"> Blog</NavLink>
               </li>
             </ul>
             <div className="ft_icon">
