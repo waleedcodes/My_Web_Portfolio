@@ -14,7 +14,7 @@ const Footer = () => {
               Let's build something incredible together. Reach out via email or
               connect on LinkedIn and GitHub. Explore my portfolio for more.
             </p>
-            <ul className="navbar-nav ms-auto nav_ul">
+            <ul className="navbar-nav ms-auto nav_ul ">
               <li className="nav-item">
                 <NavLink to="/about">About</NavLink>
               </li>
