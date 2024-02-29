@@ -818,7 +818,9 @@ a {
 .footer h2 {
   /* padding-bottom: 0.5rem; */
 }
-
+.Error{
+  background: #F0F0F0;
+}
 .ft_icon {
   padding: 0.5rem 0;
 }

@@ -16,17 +16,19 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 // import { HeroParallax } from "./components/ui/HeroParallax";
+import Error from "./components/Error";
 
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <>
       <Router>
         <Navbar />
         <Routes>
-          {/* <Route path="/" element={<HeroParallax />} /> */}
+          <Route path="*" element={<Error />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           {/* <Route path="/skills" element={<Skills />} /> */}
