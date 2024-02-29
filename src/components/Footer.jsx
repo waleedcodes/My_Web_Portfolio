@@ -5,18 +5,10 @@ const Footer = () => {
     <>
       <div className="footer container-fluid">
         <div className="footer_main container">
-          <div className="row">
-            <div className="footer_1">
-              <a className="navbar-brand my-3" href="#">
-                <h2>Waleed</h2>
-                <h2>Waleed</h2>
-              </a>
-              <p className="mt-4">
-                Let's build something incredible together. Reach out via email
-                or connect on LinkedIn and GitHub. Explore my portfolio for
-                more.
-              </p>
-              <ul className="navbar-nav ms-auto nav_ul d-flex">
+          <div className="row text-center">
+            <div className="footer_1 col-md-12">
+              <h2 className="pb-4">Lets Connect</h2>
+              <ul className=" ms-auto nav_ul d-inline-flex">
                 <li className="nav-item">
                   <NavLink to="/about">About</NavLink>
                 </li>
