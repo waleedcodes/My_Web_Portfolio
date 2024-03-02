@@ -1,4 +1,4 @@
-const AllCourses = () => {
+const AllCourses = ({ course }) => {
   return (
     <div className="card mb-3">
       <div className="card-body">
