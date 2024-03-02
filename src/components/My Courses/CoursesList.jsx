@@ -28,10 +28,12 @@ const CoursesList = ({ courses }) => {
           </div>
           <div className="col-md-2"></div>
         </div>
-        <div className="Main_courses">
-          {courses.map((course, index) => (
-            <AllCourses key={index} course={course} />
-          ))}
+        <div className="container">
+          <div className="Main_courses">
+            {courses.map((course, index) => (
+              <AllCourses key={index} course={course} />
+            ))}
+          </div>
         </div>
       </div>
       {/* // ******************************** */}
