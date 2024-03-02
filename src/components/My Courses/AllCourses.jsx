@@ -20,9 +20,9 @@ const AllCourses = ({ course }) => {
           <div className="row text-center gx-0">
             <div className="col-md-2"></div>
             <div className="col-md-8">
-              <h1>
+              <h1 className="pb-3">
                 <img src={img1} alt="" />
-                SERVICE
+                My Courses
                 <img src={img2} alt="" />
               </h1>
               <p className="px-5 px-md-5">
