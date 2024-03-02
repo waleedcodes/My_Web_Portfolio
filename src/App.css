@@ -60,6 +60,12 @@ a {
   color: var(--primary-color) !important;
 }
 /* ************************************* */
+.Main_courses {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* ************************************* */
+/* ************************************* */
 .home {
   background-image: url(./assets/homemain.png);
   height: 750px;
@@ -818,8 +824,8 @@ a {
 .footer h2 {
   /* padding-bottom: 0.5rem; */
 }
-.Error{
-  background: #F0F0F0;
+.Error {
+  background: #f0f0f0;
 }
 .ft_icon {
   padding: 0.5rem 0;

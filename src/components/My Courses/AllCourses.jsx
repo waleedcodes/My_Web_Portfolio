@@ -1,8 +1,8 @@
 const AllCourses = ({ course }) => {
   return (
     <>
-      <div className="Main_courses">
-        <div className="">
+      <div className="">
+        <div className="col">
           <h5 className="text-white">{course.title}</h5>
           <p className="">{course.description}</p>
           <p className="">Instructor: {course.instructor}</p>
