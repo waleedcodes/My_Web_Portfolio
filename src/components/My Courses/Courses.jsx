@@ -1,3 +1,4 @@
+import AllCourses from "./AllCourses";
 
 const Courses = () => {
   return (
