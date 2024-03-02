@@ -1,6 +1,6 @@
 import AllCourses from "./AllCourses";
 
-const Courses = ({ courses }) => {
+const CoursesList = ({ courses }) => {
   return (
     <div>
       {courses.map((course, index) => (
@@ -10,4 +10,4 @@ const Courses = ({ courses }) => {
   );
 };
 
-export default Courses;
+export default CoursesList;
