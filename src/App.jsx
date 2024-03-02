@@ -17,6 +17,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 // import { HeroParallax } from "./components/ui/HeroParallax";
 import Error from "./components/Error";
+import courses from "./components/My Courses/courses";
+import CoursesList from "./components/My Courses/CoursesList";
 
 function App() {
   useEffect(() => {
@@ -34,6 +36,7 @@ function App() {
           {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/courses" element={<CoursesList courses={courses} />} />
           {/* <Route path="/feature" element={<Feature />} /> */}
           {/* <Route path="/testimonial" element={<Testimonial />} /> */}
           <Route path="/blog" element={<Blog />} />
