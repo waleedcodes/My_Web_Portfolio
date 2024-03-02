@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 const AllCourses = ({ course }) => {
   return (
     <>
@@ -10,11 +11,17 @@ const AllCourses = ({ course }) => {
       </div> */}
       {/* ***************************** */}
       <div className="">
-        <div className="about-col1" data-aos="fade-up">
-          <h4 className="text-white">{course.title}</h4>
-          <p className="">{course.description}</p>
-          <h6 className="text-white"><b>Instructor:</b> {course.instructor}</h6>
-        </div>
+        <NavLink to={course.link} target="_blank">
+          <div className="about-col1" data-aos="fade-up">
+            <img src={course.src} alt="" className="img-fluid" />
+            <h4 className="text-white pt-4">{course.title}</h4>
+            <p className="">{course.description}</p>
+            <h6 className="text-white">
+              <b>Instructor:</b>
+              <span> {course.instructor}</span>
+            </h6>
+          </div>
+        </NavLink>
       </div>
       {/* ***************************** */}
     </>
