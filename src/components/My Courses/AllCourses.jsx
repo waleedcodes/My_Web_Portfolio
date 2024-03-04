@@ -27,13 +27,14 @@ const AllCourses = ({ course }) => {
               onClick={executeOnClick}
               expanded={false}
               truncatedEndingComponent={"... "}
+              className="py-3"
             >
               <p className="">{course.description}</p>
             </ShowMoreText>
             {/* <p className="">{course.description}</p> */}
             <h6 className="text-white">
-              <b>Instructor:</b>
-              <span> {course.instructor}</span>
+              <b className="pe-3">Instructor:</b>
+              {course.instructor}
             </h6>
           </div>
         </NavLink>
