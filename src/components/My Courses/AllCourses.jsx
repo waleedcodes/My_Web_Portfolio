@@ -20,17 +20,17 @@ const AllCourses = ({ course }) => {
             <img src={course.src} alt="" className="img-fluid" />
             <h4 className="text-white pt-4">{course.title}</h4>
             <ShowMoreText
-                      lines={5}
-                      more="Show more"
-                      less="Show less"
-                      anchorClass="show-more-less-clickable"
-                      onClick={executeOnClick}
-                      expanded={false}
-                      truncatedEndingComponent={"... "}
-                    >
-
-                    </ShowMoreText>
-            <p className="">{course.description}</p>
+              lines={5}
+              more="Show more"
+              less="Show less"
+              anchorClass="show-more-less-clickable"
+              onClick={executeOnClick}
+              expanded={false}
+              truncatedEndingComponent={"... "}
+            >
+              <p className="">{course.description}</p>
+            </ShowMoreText>
+            {/* <p className="">{course.description}</p> */}
             <h6 className="text-white">
               <b>Instructor:</b>
               <span> {course.instructor}</span>
