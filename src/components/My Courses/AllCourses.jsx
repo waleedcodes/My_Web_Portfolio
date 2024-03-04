@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import ShowMoreText from "react-show-more-text";
 const AllCourses = ({ course }) => {
   return (
     <>
