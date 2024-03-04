@@ -20,7 +20,7 @@ const AllCourses = ({ course }) => {
             <img src={course.src} alt="" className="img-fluid" />
             <h4 className="text-white pt-4">{course.title}</h4>
             <ShowMoreText
-              lines={5}
+              lines={6}
               more="Show more"
               less="Show less"
               anchorClass="show-more-less-clickable"
