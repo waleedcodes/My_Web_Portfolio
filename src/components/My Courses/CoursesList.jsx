@@ -1,6 +1,7 @@
 import AllCourses from "./AllCourses";
 import img1 from "../../assets/icon1.png";
 import img2 from "../../assets/icon2.png";
+import "./Course.css";
 
 const CoursesList = ({ courses }) => {
   return (
