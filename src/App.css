@@ -64,6 +64,7 @@ a {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
 }
+.Main_Cour
 .about-col1 span{
   color: var(--primary-color);
   padding-left: 1rem;
