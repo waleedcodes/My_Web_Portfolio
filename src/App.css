@@ -874,6 +874,9 @@ a {
     width: 80%;
     font-size: 2.2rem;
   }
+  .Main_courses {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .show {
     margin: 1rem 0;
     border: 2px solid var(--primary-color);
