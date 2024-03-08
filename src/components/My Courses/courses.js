@@ -13,7 +13,7 @@ const courses = [
         src: "https://i.ytimg.com/vi/a-ohWa7NyEo/maxresdefault.jpg"
     },
     {
-        title: 'MongoDB Tutorials',
+        title: 'MongoDB Tutorials: Mastering NoSQL Database Management',
         description: 'Learn MongoDB from scratch with our step-by-step tutorials. Master schema design, CRUD operations, indexing, and advanced concepts like replication and scaling. Start your journey to becoming a MongoDB expert today!',
         instructor: 'Waleed Codes',
         src: "https://i.ytimg.com/vi/Lt_YNDzCjkA/maxresdefault.jpg"
