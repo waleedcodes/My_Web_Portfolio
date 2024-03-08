@@ -8,8 +8,8 @@ const courses = [
     },
     {
         title: 'Basics to Advanced Javascript Course for Beginners',
-        description: 'Master React.js concepts',
-        instructor: 'Jane Smith',
+        description: 'Embark on a coding journey from basics to advanced with our JavaScript course for beginners. Master fundamental concepts, explore DOM manipulation, and delve into advanced topics like asynchronous programming. Elevate your skills through hands-on projects and step confidently into the world of dynamic web development. 🚀🌐 #javascript  #codingforbeginners #waleedcodes',
+        instructor: 'Waleed Codes',
         src: "../../assets/introduction of react js.jpg"
     },
     // Add more courses as needed
