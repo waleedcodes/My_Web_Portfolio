@@ -18,7 +18,7 @@ const AllCourses = ({ course }) => {
         <NavLink to={course.link} target="_blank">
           <div className="about-col1" data-aos="fade-up">
             <img src={course.src} alt="" className="img-fluid" />
-            <h4 className="text-white pt-4">{course.title}</h4>
+            <h5 className="text-white pt-4">{course.title}</h5>
             <ShowMoreText
               lines={3}
               more="Show more"
