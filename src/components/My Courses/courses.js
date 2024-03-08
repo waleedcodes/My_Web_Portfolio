@@ -7,7 +7,7 @@ const courses = [
         link: "https://www.youtube.com/playlist?list=PLb_ONK2dFLrJrs13SDxSULV6Ezj3s1b0g"
     },
     {
-        title: 'Advanced React',
+        title: 'Basics to Advanced Javascript Course for Beginners',
         description: 'Master React.js concepts',
         instructor: 'Jane Smith',
         src: "../../assets/introduction of react js.jpg"
