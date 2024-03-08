@@ -13,7 +13,7 @@ const courses = [
         src: "https://i.ytimg.com/vi/a-ohWa7NyEo/maxresdefault.jpg"
     },
      {
-        title: 'Basics to Advanced Javascript Course for Beginners',
+        title: 'MongoDB Tutorials',
         description: 'Embark on a coding journey from basics to advanced with our JavaScript course for beginners. Master fundamental concepts, explore DOM manipulation, and delve into advanced topics like asynchronous programming. Elevate your skills through hands-on projects and step confidently into the world of dynamic web development. 🚀🌐 #javascript  #codingforbeginners #waleedcodes',
         instructor: 'Waleed Codes',
         src: "https://i.ytimg.com/vi/a-ohWa7NyEo/maxresdefault.jpg"
