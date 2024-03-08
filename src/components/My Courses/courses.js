@@ -12,11 +12,11 @@ const courses = [
         instructor: 'Waleed Codes',
         src: "https://i.ytimg.com/vi/a-ohWa7NyEo/maxresdefault.jpg"
     },
-     {
+    {
         title: 'MongoDB Tutorials',
-        description: 'Embark on a coding journey from basics to advanced with our JavaScript course for beginners. Master fundamental concepts, explore DOM manipulation, and delve into advanced topics like asynchronous programming. Elevate your skills through hands-on projects and step confidently into the world of dynamic web development. 🚀🌐 #javascript  #codingforbeginners #waleedcodes',
+        description: 'Learn MongoDB from scratch with our step-by-step tutorials. Master schema design, CRUD operations, indexing, and advanced concepts like replication and scaling. Start your journey to becoming a MongoDB expert today!',
         instructor: 'Waleed Codes',
-        src: "https://i.ytimg.com/vi/a-ohWa7NyEo/maxresdefault.jpg"
+        src: "https://i.ytimg.com/vi/Lt_YNDzCjkA/maxresdefault.jpg"
     },
     // Add more courses as needed
 ];
