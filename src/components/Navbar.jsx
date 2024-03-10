@@ -61,9 +61,6 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <form action="">
-          
-          </form>
         </div>
       </nav>
     </>
