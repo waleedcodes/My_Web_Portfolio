@@ -68,7 +68,7 @@ const Navbar = () => {
             </ul>
             <div className="px-3">
               <SignedOut>
-                <SignInButton />
+                <SignInButton className="btn0 border-0" />
               </SignedOut>
               <SignedIn>
                 <UserButton />

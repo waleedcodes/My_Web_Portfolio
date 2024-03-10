@@ -188,6 +188,19 @@ a {
 .home_btns a {
   color: #fff !important;
 }
+.btn0 {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
 .home_btn1 {
   padding: 0.75rem 2rem;
   border: none;
