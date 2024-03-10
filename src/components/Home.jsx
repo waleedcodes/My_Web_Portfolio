@@ -33,6 +33,12 @@ const Home = () => {
 
   return (
     <>
+      <div
+        className="g-ytsubscribe"
+        data-channelid="UCSMUibwDXGpz_BtAvpgO8zg"
+        data-layout="full"
+        data-count="default"
+      ></div>
       <div className="home">
         <div className="row_main">
           <div className="row gx-0">

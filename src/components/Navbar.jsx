@@ -62,12 +62,7 @@ const Navbar = () => {
             </ul>
           </div>
           <form action="">
-            <div
-              className="g-ytsubscribe"
-              data-channelid="UCSMUibwDXGpz_BtAvpgO8zg"
-              data-layout="full"
-              data-count="default"
-            ></div>
+          
           </form>
         </div>
       </nav>
