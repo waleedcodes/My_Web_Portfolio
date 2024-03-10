@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 const Navbar = () => {
   return (
@@ -60,6 +61,9 @@ const Navbar = () => {
                 <NavLink to="/blog"> Blog</NavLink>
               </li>
             </ul>
+            <form action="">
+              
+            </form>
           </div>
         </div>
       </nav>
