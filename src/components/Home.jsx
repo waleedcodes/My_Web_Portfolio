@@ -6,6 +6,7 @@ import img2 from "../assets/men2.png";
 import { NavLink } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
+import SignIn from "./SignIn/SignIn";
 
 // const TEXTS = [
 //   "HTML",
@@ -33,6 +34,7 @@ const Home = () => {
 
   return (
     <>
+      <SignIn />
       <div className="home">
         <div className="row_main">
           <div className="row gx-0">

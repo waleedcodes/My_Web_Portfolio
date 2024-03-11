@@ -19,8 +19,10 @@ import Footer from "./components/Footer";
 import Error from "./components/Error";
 import courses from "./components/My Courses/courses";
 import CoursesList from "./components/My Courses/CoursesList";
-
+import { useAuth,auth } from "@clerk/clerk-react";}
 function App() {
+const {userId} = await auth();
+
   useEffect(() => {
     AOS.init();
   }, []);
