@@ -19,9 +19,12 @@ import Footer from "./components/Footer";
 import Error from "./components/Error";
 import courses from "./components/My Courses/courses";
 import CoursesList from "./components/My Courses/CoursesList";
-import { useAuth,auth } from "@clerk/clerk-react";}
+// import {auth } from "@clerk/clerk-react";
+import SignIn from "./components/SignIn/SignIn";
+
 function App() {
-const {userId} = await auth();
+  // const {userId} = await auth();
+  // const isAuth = !!userId;
 
   useEffect(() => {
     AOS.init();
@@ -33,6 +36,9 @@ const {userId} = await auth();
         <Navbar />
         <Routes>
           <Route path="*" element={<Error />} />
+          {/* {!isAuth ? (
+             <SignIn />
+          ):(  <><Route path="/" element={<Home />} /></>)} */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           {/* <Route path="/skills" element={<Skills />} /> */}
@@ -43,6 +49,7 @@ const {userId} = await auth();
           {/* <Route path="/testimonial" element={<Testimonial />} /> */}
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/signin" element={<SignIn />} />
         </Routes>
         <Footer />
       </Router>
