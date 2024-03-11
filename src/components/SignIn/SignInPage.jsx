@@ -1,21 +1,13 @@
 import { SignIn } from "@clerk/clerk-react";
 
-const SignInPage = () => {
-  return (
-    <>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-3"></div>
-          <div className="col-md-6">
-            <div className="">
-              <SignIn path="/signin" routing="path" signUpUrl="/signup" />
-            </div>
-          </div>
-          <div className="col-md-3"></div>
-        </div>
+const SignInPage = () => (
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-md-6">
+        <SignIn path="/" routing="path" signUpUrl="/" />
       </div>
-    </>
-  );
-};
+    </div>
+  </div>
+);
 
 export default SignInPage;
