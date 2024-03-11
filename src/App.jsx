@@ -3,7 +3,12 @@ import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -35,16 +40,44 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="*" element={<Error />} />
-          <Route path="/" element={isSignedIn ? <Home /> : <Navigate to="/" />} />
-          <Route path="/about" element={isSignedIn ? <About /> : <Navigate to="/signin" />} />
+          {/* <Route
+            path="/"
+            element={isSignedIn ? <Home /> : <Navigate to="/signin" />}
+          />{" "} */}
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/about"
+            element={isSignedIn ? <About /> : <Navigate to="/signin" />}
+          />
           {/* <Route path="/skills" element={<Skills />} /> */}
-          <Route path="/portfolio" element={isSignedIn ? <Portfolio /> : <Navigate to="/signin" />} />
-          <Route path="/services" element={isSignedIn ? <Services /> : <Navigate to="/signin" />} />
-          <Route path="/courses" element={isSignedIn ? <CoursesList courses={courses} /> : <Navigate to="/signin" />} />
+          <Route
+            path="/portfolio"
+            element={isSignedIn ? <Portfolio /> : <Navigate to="/signin" />}
+          />
+          <Route
+            path="/services"
+            element={isSignedIn ? <Services /> : <Navigate to="/signin" />}
+          />
+          <Route
+            path="/courses"
+            element={
+              isSignedIn ? (
+                <CoursesList courses={courses} />
+              ) : (
+                <Navigate to="/signin" />
+              )
+            }
+          />
           {/* <Route path="/feature" element={<Feature />} /> */}
           {/* <Route path="/testimonial" element={<Testimonial />} /> */}
-          <Route path="/blog" element={isSignedIn ? <Blog /> : <Navigate to="/signin" />} />
-          <Route path="/contact" element={isSignedIn ? <Contact /> : <Navigate to="/signin" />} />
+          <Route
+            path="/blog"
+            element={isSignedIn ? <Blog /> : <Navigate to="/signin" />}
+          />
+          <Route
+            path="/contact"
+            element={isSignedIn ? <Contact /> : <Navigate to="/signin" />}
+          />
           <Route path="/signin" element={<SignInPage />} />
         </Routes>
         <Footer />
