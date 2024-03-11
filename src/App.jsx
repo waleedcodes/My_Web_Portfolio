@@ -20,7 +20,7 @@ import Error from "./components/Error";
 import courses from "./components/My Courses/courses";
 import CoursesList from "./components/My Courses/CoursesList";
 // import {auth } from "@clerk/clerk-react";
-import SignIn from "./components/SignIn/SignIn";
+import SignInPage from "./components/SignIn/SignInPage";
 
 function App() {
   // const {userId} = await auth();
@@ -34,6 +34,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+        {/* <SignInPage /> */}
         <Routes>
           <Route path="*" element={<Error />} />
           {/* {!isAuth ? (
@@ -49,7 +50,7 @@ function App() {
           {/* <Route path="/testimonial" element={<Testimonial />} /> */}
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signin" element={<SignInPage />} />
         </Routes>
         <Footer />
       </Router>

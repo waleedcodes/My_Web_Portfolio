@@ -6,7 +6,7 @@ import img2 from "../assets/men2.png";
 import { NavLink } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
-import SignIn from "./SignIn/SignIn";
+import SignIn from "./SignIn/SignInPage";
 
 // const TEXTS = [
 //   "HTML",
