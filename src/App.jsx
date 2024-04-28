@@ -42,14 +42,30 @@ function App() {
           <Route path="*" element={<Error />} />
           {/* <Route
             path="/"
-            element={isSignedIn ? <Home /> : <Navigate to="/signin" />}
+            element={<Home /> }
           />{" "} */}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {/* <Route path="/skills" element={<Skills />} /> */}
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/courses" element={<CoursesList courses={courses} />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route
+            path="/contact"
+            element={isSignedIn ? <Contact /> : <Navigate to="/signin" />}
+          />
+          <Route path="/signin" element={<SignInPage />} />
+        </Routes>
+        {/* <Routes>
+          <Route path="*" element={<Error />} />
+       
           <Route path="/" element={<Home />} />
           <Route
             path="/about"
             element={isSignedIn ? <About /> : <Navigate to="/signin" />}
           />
-          {/* <Route path="/skills" element={<Skills />} /> */}
+
           <Route
             path="/portfolio"
             element={isSignedIn ? <Portfolio /> : <Navigate to="/signin" />}
@@ -68,8 +84,7 @@ function App() {
               )
             }
           />
-          {/* <Route path="/feature" element={<Feature />} /> */}
-          {/* <Route path="/testimonial" element={<Testimonial />} /> */}
+
           <Route
             path="/blog"
             element={isSignedIn ? <Blog /> : <Navigate to="/signin" />}
@@ -79,7 +94,8 @@ function App() {
             element={isSignedIn ? <Contact /> : <Navigate to="/signin" />}
           />
           <Route path="/signin" element={<SignInPage />} />
-        </Routes>
+        </Routes> */}
+
         <Footer />
       </Router>
     </>
