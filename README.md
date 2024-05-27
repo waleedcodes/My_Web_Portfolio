@@ -1,4 +1,4 @@
-# My Dev Portfolio Website with React
+# My Dev Portfolio Website with React JS
 
 # <a href="https://waleedcodes-dev-portfolio.vercel.app">Portfolio Link</a>
 
