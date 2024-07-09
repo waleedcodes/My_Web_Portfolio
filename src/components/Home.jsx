@@ -6,6 +6,7 @@ import img2 from "../assets/men2.png";
 import { NavLink } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
+import { DownloadCloud } from "lucide-react";
 // import SignIn from "./SignIn/SignInPage";
 
 // const TEXTS = [
@@ -59,8 +60,19 @@ const Home = () => {
                 {/* <p>A passionate Web Developer who works on</p> */}
                 <div className="home_text"></div>
                 <div className="home_btns">
-                  <button type="button" className="home_btn1">
+                  <button type="button" className="home_btn2">
                     <NavLink to="/contact">HIRE ME</NavLink>
+                  </button>
+
+                  <button className="home_btn1">
+                    <a
+                      className="button"
+                      href="/src/assets/Resume.pdf"
+                      download="My Resume"
+                    >
+                      Download Resume{" "}
+                      <DownloadCloud className="ps-2" size={30} />
+                    </a>
                   </button>
                   <button type="button" className="home_btn2">
                     <NavLink to="/about">ABOUT ME</NavLink>
