@@ -51,11 +51,7 @@ const Home = () => {
                 <h1>
                   I am a{" "}
                   <ReactTyped
-                    strings={[
-                      "Front End Developer",
-                      "Youtuber",
-                      "Video Editor",
-                    ]}
+                    strings={["Full Stack Enginner", "Content Creator"]}
                     typeSpeed={100}
                     loop
                   />

@@ -54,7 +54,7 @@ function App() {
           <Route
             path="/contact"
             element={isSignedIn ? <Contact /> : <Navigate to="/signin" />}
-          />
+          />``
           <Route path="/signin" element={<SignInPage />} />
         </Routes>
         {/* <Routes>

@@ -4,7 +4,7 @@
 
 :root {
   --dark-color: #222222;
-  --primary-color: #7371f9;
+  --primary-color: #9389ff;
 }
 * {
   margin: 0;
@@ -71,14 +71,10 @@ a {
 /* ************************************* */
 /* ************************************* */
 .home {
-  background-image: url(./assets/homemain.png);
   height: 750px;
-  background-size: cover;
-  background-position: center;
   text-align: center;
   padding: 5rem 0;
-  background-color: rgb(0, 0, 0, 0.4);
-  background-blend-mode: color;
+  background-color: rgb(0, 0, 0, 0.9);
 }
 .home_col {
   padding-left: 2rem;
@@ -348,10 +344,8 @@ a {
   fill: #fff !important;
 }
 .skills {
-  background-image: url(./assets/skill-bg.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 5rem 0;
+  background-color: rgb(0, 0, 0, 0.9);
+  padding: 8rem 0;
 }
 .skills h1 {
   color: #fff;
