@@ -7,14 +7,11 @@ const Footer = () => {
         <div className="footer_main container">
           <div className="row text-center">
             <div className="footer_1 col-md-12">
-              <h2 className="pb-4">Lets Connect</h2>
-              <ul className=" ms-auto nav_ul d-inline-flex">
+              <h2 className="pb-4">Lets Connect With Me</h2>
+              {/* <ul className=" ms-auto nav_ul d-inline-flex">
                 <li className="nav-item">
                   <NavLink to="/about">About</NavLink>
                 </li>
-                {/* <li className="nav-item">
-                <NavLink to="/skills"> Skills</NavLink>
-              </li> */}
                 <li className="nav-item">
                   <NavLink to="/services"> Services</NavLink>
                 </li>{" "}
@@ -24,54 +21,61 @@ const Footer = () => {
                 <li className="nav-item">
                   <NavLink to="/portfolio"> Portfoilo</NavLink>
                 </li>
-                {/* <li className="nav-item">
-                <NavLink to="/feature"> Feature</NavLink>
-              </li> */}
-                {/* <li className="nav-item">
-                <NavLink to="/testimonial"> Testimonial</NavLink>
-              </li> */}
                 <li className="nav-item">
                   <NavLink to="/contact"> Contact</NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/blog"> Blog</NavLink>
                 </li>
-              </ul>
-              <div className="ft_icon">
+              </ul> */}
+              <div className="ft_icon align-item-center">
                 <a
                   href="https://www.facebook.com/waleedcodes"
                   target="_blank"
                   rel="noreferrer"
+                  className=""
                 >
-                  <i className="fa-brands fa-facebook"></i>
+                  <button className="home_btn2 text-white ps-3">
+                    <i className="fa-brands fa-facebook"></i> Facebook
+                  </button>
                 </a>
                 <a
                   href="https://www.youtube.com/@waleedcodes"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="fa-brands fa-youtube"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/waleedcodes/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa-brands fa-instagram"></i>
+                  <button className="home_btn2 text-white ps-3 bg-danger border-0">
+                    <i className="fa-brands fa-youtube"></i> Youtube Channel
+                  </button>
                 </a>
                 <a
                   href="https://twitter.com/waleedcodes"
                   target="_blank"
                   rel="noreferrer"
+                  className=""
                 >
-                  <i className="fa-brands fa-twitter"></i>
+                  <button className="home_btn2 text-white ps-3">
+                    <i className="fa-brands fa-twitter"></i> Twitter
+                  </button>
+                </a>
+                <a
+                  href="https://instagram.com/waleedcodes"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="home_btn2 text-white ps-3 bg-danger border-0">
+                    <i className="fa-brands fa-instagram"></i> Instagram
+                  </button>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/waleedcodes/"
                   target="_blank"
                   rel="noreferrer"
+                  className=""
                 >
-                  <i className="fa-brands fa-linkedin"></i>
+                  <button className="home_btn2 text-white ps-3">
+                    <i className="fa-brands fa-linkedin"></i> Linkedin
+                  </button>
                 </a>
               </div>
             </div>
