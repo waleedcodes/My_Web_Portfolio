@@ -27,6 +27,7 @@ import CoursesList from "./components/My Courses/CoursesList";
 // import { useAuth, auth } from "@clerk/clerk-react";
 import SignInPage from "./components/SignIn/SignInPage";
 import { useAuth } from "@clerk/clerk-react";
+import DevPortfolio from "./components/DevPortfolio";
 function App() {
   const { isSignedIn } = useAuth();
 
@@ -48,13 +49,15 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* <Route path="/skills" element={<Skills />} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/devportfolio" element={<DevPortfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/courses" element={<CoursesList courses={courses} />} />
           <Route path="/blog" element={<Blog />} />
           <Route
             path="/contact"
             element={isSignedIn ? <Contact /> : <Navigate to="/signin" />}
-          />``
+          />
+          ``
           <Route path="/signin" element={<SignInPage />} />
         </Routes>
         {/* <Routes>
