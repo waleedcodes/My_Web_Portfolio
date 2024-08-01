@@ -48,7 +48,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           {/* <Route path="/skills" element={<Skills />} /> */}
-          <Route path="/portfolio" element={<Portfolio />} />
+          {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+          <Route
+            path="/portfolio"
+            element={isSignedIn ? <Portfolio /> : <Navigate to="/signin" />}
+          />
           <Route path="/devportfolio" element={<DevPortfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/courses" element={<CoursesList courses={courses} />} />

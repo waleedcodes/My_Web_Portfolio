@@ -1,5 +1,5 @@
 import React from "react";
-import ReactTyped from "react-typed";
+import { ReactTyped } from "react-typed";
 // import img2 from "../assets/men.jpg";
 import img2 from "../assets/men2.png";
 // import TextTransition, { presets } from "react-text-transition";
